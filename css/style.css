@@ -1,5 +1,10 @@
+html{
+    position: relative;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
 }
 
 .jumbotron img{
@@ -20,4 +25,20 @@ section{
 }
 .gambar{
     margin-top: 4%;
+}
+.contact{
+    height: 900px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #333;
+    padding-top: 3%;
+}
+
+footer p{
+    color: #aaa;
+    font-size: 1em;
 }
