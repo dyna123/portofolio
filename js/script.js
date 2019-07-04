@@ -11,3 +11,10 @@ $('.page-scroll').on('click', function(e) {
    
      e.preventDefault();
    });
+
+// headroom
+   var myElement = document.querySelector(".headroom");
+   // construct an instance of Headroom, passing the element
+   var headroom  = new Headroom(myElement);
+   // initialise
+   headroom.init(); 
