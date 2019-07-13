@@ -47,22 +47,34 @@ hr{
 section{
     min-height: 600px;
 }
-.pKiri, .pKanan{
+.pKiri{
+    text-align: justify;
     opacity: 0;
     transform: translate(-50px, 0) rotate(15deg);
     transition: 2s;
 }
 
 .pKanan{
-    transform: translate(50px, 0) rotate(-15deg);
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(15deg);
+    transition: 2s;
 }
 
 .pKiri.pMuncul, .pKanan.pMuncul{
     opacity: 1;
     transform: translate(0,0);
 }
+.about{
+    margin-bottom: 3%;
+}
+.skill{
+    margin-top: 2%;
+}
 .portofolio{
     background-color: #eee;
+}
+.card  {
+    margin-bottom: 3%;
 }
 .gambar{
     margin-top: 4%;
